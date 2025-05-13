@@ -1,0 +1,32 @@
+/* 1) Water.css para estilos “plug-and-play” */
+@import url('https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css');
+
+/* 2) Roboto desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* 3) Tus overrides mínimos */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #444647;
+}
+
+/* Color de enlaces */
+a {
+  color: #d81504;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botones personalizados */
+button, input[type="submit"] {
+  background: #d81504;
+  color: #fff;
+  border-radius: 4px;
+  padding: .5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+button:hover, input[type="submit"]:hover {
+  background: #b21203;
+}
